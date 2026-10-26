@@ -88,6 +88,18 @@
 
 > **国内用户**建议访问 Gitee 仓库的 [Releases](https://gitee.com/kiroswu/hongguo-shortdramabox/releases/) 页面下载，速度更快。下载后解压即可运行，无需安装；删除文件夹即完成卸载。
 
+Linux桌面版用户运行AppImage需先安装依赖包：
+```shell
+# Ubuntu 22.04 / Debian 12
+sudo apt update
+sudo apt install -y libwebkit2gtk-4.1-0 libayatana-appindicator3-1 \
+  gstreamer1.0-libav gstreamer1.0-plugins-good gstreamer1.0-gl libfuse2
+
+# Ubuntu 24.04+（t64 迁移后 FUSE2 的包名变了，其余相同）
+sudo apt install -y libwebkit2gtk-4.1-0 libayatana-appindicator3-1 \
+  gstreamer1.0-libav gstreamer1.0-plugins-good gstreamer1.0-gl libfuse2t64
+```
+
 ## 五、常见问题
 
 **Q1：只有声音、但是没有画画**
