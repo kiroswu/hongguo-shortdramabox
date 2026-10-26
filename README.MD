@@ -12,7 +12,7 @@
 <img src="https://img.shields.io/badge/Ads-零广告-ef4444?style=flat-square" alt="Ads">
 </p>
 <br>
-<img src="assets/0.png" width="86%" alt="短剧盒界面预览">
+<img src="assets/0.png" width="90%" alt="短剧盒界面预览">
 </div>
 
 ##  一、产品亮点
@@ -72,6 +72,7 @@
 ![](assets/4.png)
 ![](assets/5.png)
 ![](assets/6.png)
+![](assets/8.png)
 ![](assets/7.png)
 
 ## 四、下载与运行
@@ -104,13 +105,7 @@
 **Q5：短剧盒会开源完整源代码吗？**
 完整源代码的开源正在考虑中，确定后将第一时间在本仓库公布，敬请期待。
 
-## 六、灵感来源
-
-短剧盒的设计与实现灵感部分参考于以下开源项目，在此向原作者致谢：
-- [yangbin1322/hongguo-player](https://github.com/yangbin1322/hongguo-player)
-- [waligoraamodio288-rgb/hongguo-desktop-releases](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases)
-
-## 七、免责声明
+## 六、免责声明
 
 > 本项目为个人开源学习项目，**仅供学习与技术交流使用，严禁用于任何商业用途**。
 > 软件本身不存储、不上传、不分发任何视频内容；所有内容均来源于网络公开接口，版权归原作者及原平台所有。
@@ -119,5 +114,7 @@
 
 ---
 <div align="center">
+
 **如果 短剧盒 对你有帮助，欢迎点亮 Star 支持本项目！**
+
 </div>
