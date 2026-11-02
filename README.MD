@@ -68,6 +68,7 @@
 - **快照剪辑** — 一键截取保存图片，画面细节原样保留。自选起止片段导出GIF或MP4，素材一步到位
 
 ## 三、界面预览
+### 客户端界面
 ![](assets/1.png)
 ![](assets/8.png)
 ![](assets/2.png)
@@ -78,6 +79,16 @@
 ![](assets/13.png)
 ![](assets/14.png)
 ![](assets/7.png)
+
+### 蜂巢移动端界面
+| 推荐 | 找剧 |
+|---|---|
+| ![](assets/20.png) | ![](assets/21.png) |
+| **排行榜** | **新剧** |
+| ![](assets/22.png) | ![](assets/23.png) |
+| **详情** | **设置** |
+| ![](assets/25.png) | ![](assets/24.png) |
+
 
 ## 四、下载与运行
 
@@ -90,7 +101,18 @@
 | Linux | 主流桌面发行版 | [GitHub Releases](../../releases/latest) |
 | Headless主机 | 主机 / NAS / 云服务器 / 容器等无界面版Linux | [GitHub Releases](../../releases/latest) |
 
-> **国内用户**建议访问 Gitee 仓库的 [Releases](https://gitee.com/kiroswu/hongguo-shortdramabox/releases/) 页面下载，速度更快。下载后解压即可运行，无需安装；删除文件夹即完成卸载。
+> **国内用户**建议访问 Gitee 仓库的 [Releases](https://gitee.com/kiroswu/hongguo-shortdramabox/releases/) 页面下载，速度更快。下载后双击即可运行，无需安装；删除文件夹即完成卸载。
+
+Linux版本如何选？
+
+| 差异性 | ShortDramaBox短剧盒Linux版| ShortDramaCat短剧猫Linux版|
+| :---: | :--- | :--- |
+|软体形态|AppImage单文件|二进制可执行文件|
+|运行平台|仅限有图形界面的桌面发行版Linux|任意Linux，包括Headless Linux|
+|使用方式|双击运行|命令行运行/管理|
+|环境要求|需额外安装依赖包|无需安装依赖包|
+|场景|客户端与Windows/MacOS一致，集成蜂巢服务功能|服务化后台运行，只能局域网浏览器访问|
+|获取方式|ShortDramaBox开头，AppImage后缀|ShortDramaCat开头，无后缀|
 
 Linux桌面版用户运行AppImage需先安装依赖包：
 ```shell
@@ -107,7 +129,7 @@ sudo apt install -y libwebkit2gtk-4.1-0 libayatana-appindicator3-1 \
 ## 五、常见问题
 
 **Q1：只有声音、但是没有画画**
-需要本机安装**HEVC视频扩展**对H.265解码（推荐。[点击下载](https://github.com/kiroswu/hongguo-shortdramabox/releases#release-HEVC%E8%A7%86%E9%A2%91%E6%89%A9%E5%B1%95)），或者在软件设置中开启**软件解码（默认关闭）**。
+需要本机安装**HEVC视频扩展**对H.265解码（推荐。[点击下载](https://github.com/kiroswu/hongguo-shortdramabox/releases#release-HEVC%E8%A7%86%E9%A2%91%E6%89%A9%E5%B1%95)），或者在软件设置中开启**软件解码**。
 
 **Q2：使用短剧盒需要安装吗？**
 不需要。软件为绿色单文件程序，下载后直接运行即可，删除目录即彻底卸载，无任何残留。
@@ -118,10 +140,7 @@ sudo apt install -y libwebkit2gtk-4.1-0 libayatana-appindicator3-1 \
 **Q4：播放卡顿如何处理？**
 软件默认启用硬件解码。如遇有声音没画面或兼容性问题，可在设置中切换解码方式，或适当降低播放画质。
 
-**Q5：短剧盒仅6M，隔壁软件包有30M甚至180M？**
-短剧盒在技术栈选型和设计上做到极致，不包含任何看不见的东西。请放心使用！为什么6M的功能做到30M？ **谨防木马植入和遥测**
-
-**Q6：短剧盒会开源完整源代码吗？**
+**Q5：短剧盒会开源完整源代码吗？**
 完整源代码的开源正在考虑中，确定后将第一时间在本仓库公布，敬请期待。
 
 ## 六、免责声明
