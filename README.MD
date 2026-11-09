@@ -13,7 +13,9 @@
 </p>
 <br>
 <img src="assets/0.png" width="90%" alt="短剧盒界面预览">
-
+<br>
+<p>魔法值：</p>
+<p>HGSDAWBAIzIwMjYk93dyQHRlZyFURyMyMDI2JPd3ckB0ZWchakcjMjAyNiQrdnJAdGVnIWJHIzIwMjYk93dyQHRlZyF8QiMyMDI2JEN0ckB2ZWchbUcjMjEyNiR7dHJAgGRnIURGIzIK9WIm</p>
 </div>
 
 ##  一、产品亮点
