@@ -129,6 +129,11 @@ sudo apt install -y libwebkit2gtk-4.1-0 libayatana-appindicator3-1 \
 # Ubuntu 24.04+（t64 迁移后 FUSE2 的包名变了，其余相同）
 sudo apt install -y libwebkit2gtk-4.1-0 libayatana-appindicator3-1 \
   gstreamer1.0-libav gstreamer1.0-plugins-good gstreamer1.0-gl libfuse2t64
+
+# 赋权及图标
+chmod +x ShortDramaBox_vx.x.x_amd64|aarch64.AppImage
+./ShortDramaBox_vx.x.x_amd64|aarch64.AppImage --install
+# 双击启动
 ```
 
 ## 五、常见问题
