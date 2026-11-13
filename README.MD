@@ -13,9 +13,22 @@
 </p>
 <br>
 <img src="assets/0.png" width="90%" alt="短剧盒界面预览">
+
 <br>
-<p>魔法值：</p>
-<p>HGSDAWBAIzIwMjYk93dyQHRlZyFURyMyMDI2JPd3ckB0ZWchakcjMjAyNiQrdnJAdGVnIWJHIzIwMjYk93dyQHRlZyF8QiMyMDI2JEN0ckB2ZWchbUcjMjEyNiR7dHJAgGRnIURGIzIK9WIm</p>
+<br>
+
+### 立即下载
+
+<p>
+<a href="https://github.com/kiroswu/hongguo-shortdramabox/releases/latest"><img src="https://img.shields.io/badge/GitHub-Releases-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Releases" height="36"></a>
+<a href="https://gitee.com/kiroswu/hongguo-shortdramabox/releases/"><img src="https://img.shields.io/badge/Gitee-Releases-c71d23?style=for-the-badge&logo=gitee&logoColor=white" alt="Gitee Releases" height="36"></a>
+<a href="https://share.feijipan.com/s/iYzFFXqV"><img src="https://img.shields.io/badge/网盘直下-免登录_·_无提取码-f97316?style=for-the-badge" alt="网盘直下 · 免登录 · 无提取码" height="36"></a>
+</p>
+
+Windows · macOS · Linux 全平台，免安装，双击即用
+
+<p><sub><a href="https://github.com/kiroswu/hongguo-shortdramabox/releases/latest">GitHub Releases</a> · <a href="https://gitee.com/kiroswu/hongguo-shortdramabox/releases/">Gitee Releases</a> · <a href="https://share.feijipan.com/s/iYzFFXqV">网盘直下</a></sub></p>
+
 </div>
 
 ##  一、产品亮点
@@ -32,47 +45,33 @@
 
 ## 二、功能特性
 
-### 1. 沉浸刷剧
-- **高清播放** — 1080P多档画质（超分可达4K），即点即播，自动记忆播放进度，下次打开无缝续播
-- **弹幕特效** — 内置弹幕引擎，支持一键开关，支持切集弹幕留存
-- **倍速播放** — 多档倍速自由切换，最大支持3x倍速
-- **自动连播** — 看完当前集自动播放下一集/季，刷剧不间断
-- **小窗模式** — 置顶小窗播放，工作娱乐一眼兼顾；自动变身全功能无边框模式，清爽和功能兼得
-- **摸鱼模式** — 一键切换伪装形态，配合全局快捷键随时唤起或隐藏，安心摸鱼不打扰
+一句话看懂：**找剧 → 看剧 → 追剧 → 存剧 → 全家共享**，全部装在同一个窗口里。
 
-### 2. 发现好剧
-- **全网搜索** — 聚合搜索能力，热门短剧一网打尽
-- **排行榜** — 热播榜、新剧榜实时更新，第一时间掌握全网热度风向
-- **分类频道** — 推荐、漫剧、真人剧等多频道浏览，快速定位下一部好剧
+| 模块 | 能做什么 |
+| :--- | :--- |
+| **找剧** | 全网聚合搜索、热播榜/新剧榜、推荐/漫剧/真人剧多频道 |
+| **看剧** | 1080P 多档画质（超分可达 4K）、即点即播、断点续播、最高 3x 倍速、自动连播、弹幕开关 |
+| **追剧** | 历史/收藏/点赞/追更/预约，免登录、全存本地；登录账号后自动云同步 |
+| **存剧** | 整剧批量下载为 MP4，一键合并成单个视频，离线随时刷 |
+| **共享** | 蜂巢服务：局域网内电视/平板/手机打开浏览器就能看，无需装 App、设备数量无上限 |
+| **进阶** | 画质/音效增强、智能变速、AI 景深弹幕、跳过「上集回顾」、高能热力条、截图剪辑、小窗与摸鱼模式 |
 
-### 3. 追剧管理
-- **本地记录** — 历史、收藏、点赞、追更、预约，数据仅存储于本地，隐私无忧
-- **追更提醒** — 喜欢的新剧一键追更，更新动态及时掌握
-- **开播预约** — 提前预约期待新剧，开播不再错过
+<details>
+<summary><b>展开查看完整功能清单</b>（不感兴趣可跳过）</summary>
 
-### 4. 离线下载
-- **MP4下载** — 剧集一键下载到本地MP4视频文件，离线也能随时刷剧
-- **批量缓存** — 整部剧一次搞定，下载任务统一管理
-- **视频合并** — 一键合并成一个单MP4视频
+**播放** — 多档画质与 4K 超分；自动记忆进度，下次打开无缝续播；内置弹幕引擎，一键开关且切集留存；多档倍速自由切换（最高 3x）；看完当前集自动接下一集/季；置顶小窗播放并自动切换为无边框模式；摸鱼模式一键伪装，配全局快捷键随时唤起或隐藏。
 
-### 5. 贴心体验
-- **任务托盘** — 关闭窗口自动收缩至系统托盘，播放不中断，随时一键唤回
-- **设置记忆** — 画质、倍速、弹幕、窗口位置/尺寸等使用偏好自动记忆，下次打开即恢复
-- **主题外观** — 深色/浅色主题切换，主题色/毛玻璃材质配置，窗体倍率缩放，跟随你的使用习惯
-- **移动适配** — 移动设备访问蜂巢服务网页，界面自动适配，支持触摸控制
-- **账号登录** — 支持账号短信登录/扫码登录，数据自动同步
+**发现** — 聚合搜索，热门短剧一网打尽；热播榜、新剧榜实时更新；推荐、漫剧、真人剧等频道浏览。
 
-### 6. 高级功能
-- **蜂巢服务** — 一键服务化，局域网内所有设备（电视、电脑、平板和手机）全功能共享看剧，互不干扰。**家庭/公司装X神器！**
-- **播放胶囊** — 播放中视频自动留存到胶囊，操作不打断，一键唤醒；支持拖拽窗口分离，边找边看
-- **智能变速** — 智能识别对白段、空白段和白镜，自动平滑变速，最高3.5x
-- **画质增强** — 画质锐化、超分（**最高4K**）、精度以及亮度、对比度、饱和度、色温等调节，瞬间变大片
-- **音效增强** — 内置人声、低音、影院、夜间四种预设与强度调节，沉浸式体验
-- **智能分析引擎** — 智能识别每集开头的「上集回顾」并自动跳过
-- **高能热力条** — 进度条叠一条热力曲线，高能剧情提前知
-- **AI景深弹幕** — 弹幕按画面景深分层渲染，前后错落；主体不被遮挡，沉浸感更强。一键开启、本地推理
-- **无头基站** — 提供**短剧猫**轻量级**蜂巢服务**，在**无头主机**上运行，为局域网提供不间断服务
-- **快照&剪辑** — 一键截取保存图片，画面细节原样保留。自选起止片段导出GIF或MP4，素材一步到位
+**管理** — 历史、收藏、点赞、追更、预约全存本地，隐私无忧；一键追更掌握更新动态；提前预约新剧开播；支持短信/扫码登录账号，数据自动同步云端。
+
+**下载** — 剧集一键下载为本地 MP4；整部剧批量缓存，下载任务统一管理；多集一键合并为单个视频。
+
+**体验** — 关窗自动收缩至系统托盘，播放不中断、随时一键唤回；画质、倍速、弹幕、窗口位置与尺寸等偏好自动记忆；深/浅主题切换，主题色与毛玻璃材质、窗体倍率缩放；移动端访问蜂巢服务网页自动适配，支持触摸控制。
+
+**高级** — 蜂巢服务一键服务化，局域网内所有设备全功能共享看剧、互不干扰；无头基站「短剧猫」可跑在 NAS/云主机上，提供不间断服务；播放胶囊自动留存进行中的视频，支持拖拽分离、边找边看；画质锐化、超分、精度及亮度/对比度/饱和度/色温调节；人声、低音、影院、夜间四种音效预设与强度调节；智能识别并跳过每集开头的「上集回顾」；进度条叠加高能热力曲线；AI 景深弹幕按画面景深分层渲染、主体不被遮挡、全程本地推理；一键截图，自选片段导出 GIF 或 MP4。
+
+</details>
 
 ## 三、界面预览
 ### 客户端界面
@@ -99,13 +98,17 @@
 
 ## 四、下载与运行
 
-所有版本均发布于仓库 **Releases** 页面：
+**不想折腾，直接走网盘**（免登录、无提取码、点开即下）：
+
+> **网盘地址：[https://share.feijipan.com/s/iYzFFXqV](https://share.feijipan.com/s/iYzFFXqV)**
+
+需要全部版本（含 Linux 服务端与历史版本）时，请前往仓库 **Releases** 页面：
 
 | 平台 | 系统要求 | 下载地址 |
 | :--- | :--- | :--- |
-|  Windows | Windows 10/11（64 位） | [GitHub Releases](../../releases/latest) |
+|  Windows | Windows 10/11 x86/ARM | [GitHub Releases](../../releases/latest) |
 |  MacOS | Intel 芯片/Apple Silicon | [GitHub Releases](../../releases/latest) |
-| Linux | 主流桌面发行版 | [GitHub Releases](../../releases/latest) |
+| Linux | 主流桌面发行版 x86/ARM | [GitHub Releases](../../releases/latest) |
 | Headless主机 | 主机 / NAS / 云服务器 / 容器等无界面版Linux | [GitHub Releases](../../releases/latest) |
 
 > **国内用户**建议访问 Gitee 仓库的 [Releases](https://gitee.com/kiroswu/hongguo-shortdramabox/releases/) 页面下载，速度更快。下载后双击即可运行，无需安装；删除文件夹即完成卸载。
@@ -140,7 +143,7 @@ chmod +x ShortDramaBox_vx.x.x_amd64|aarch64.AppImage
 
 ## 五、常见问题
 
-**Q1：只有声音、但是没有画画**
+**Q1：只有声音、但是没有画面**
 需要本机安装**HEVC视频扩展**对H.265解码（推荐。[点击下载](https://github.com/kiroswu/hongguo-shortdramabox/releases#release-HEVC%E8%A7%86%E9%A2%91%E6%89%A9%E5%B1%95)），或者在软件设置中开启**软件解码**。
 
 **Q2：使用短剧盒需要安装吗？**
