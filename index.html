@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="color-scheme" content="dark light" />
+    <title>短剧盒</title>
+    <style>
+      /* 首帧前的启动态：与皮肤同一套底色，不闪白。 */
+      html, body { margin: 0; height: 100%; background: #08080b; color: #f4f1ea; }
+      #app:empty { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; }
+      #app:empty::after {
+        content: ""; width: 26px; height: 26px; border-radius: 50%;
+        border: 1px solid rgba(227, 192, 138, .25); border-top-color: #e3c08a;
+        animation: boot .9s linear infinite;
+      }
+      @keyframes boot { to { transform: rotate(360deg); } }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

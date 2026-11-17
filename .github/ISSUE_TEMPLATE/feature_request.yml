@@ -1,0 +1,72 @@
+name: 功能需求
+description: 提出新功能或改进建议
+title: "[需求] "
+labels: ["功能需求"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢建议。请说明使用场景与期望效果，便于我们评估优先级。
+        提交前建议先检索已有 Issue，避免重复提交。
+
+  - type: input
+    id: software-version
+    attributes:
+      label: 软件名及版本
+      description: 填写相关软件与当前版本号，例如短剧盒 v1.2.3、短剧猫 v0.9.0
+      placeholder: 例如：短剧盒 v1.2.3
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: 操作系统
+      description: 选择你所使用或希望支持的操作系统
+      options:
+        - Windows
+        - Linux
+        - macOS
+    validations:
+      required: true
+
+  - type: dropdown
+    id: architecture
+    attributes:
+      label: 架构
+      description: 选择你所使用或希望支持的 CPU 架构
+      options:
+        - x86
+        - arm
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 功能描述
+      description: 简明描述希望新增或改进的功能
+      placeholder: 例如：希望支持按剧集批量导出为 MP4
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 操作步骤 / 使用场景
+      description: 描述期望的使用流程，或目前遇到的问题场景
+      placeholder: |
+        1. 打开 ……
+        2. 进入 ……
+        3. 希望可以 ……
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: 补充信息（可选）
+      description: 可补充期望效果、参考产品、替代方案或其他说明
+      placeholder: 例如：参考 XX 软件的批量导出体验
+    validations:
+      required: false

@@ -1,0 +1,23 @@
+{
+  "name": "shortdrama-skin-aurora",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "短剧盒官方皮肤示例（Aurora / 极光）：React 19 + Vite，构建产物 zip 后可在「设置 → 界面皮肤」安装",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "pack": "npm run build && node scripts/pack.mjs"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5"
+  }
+}

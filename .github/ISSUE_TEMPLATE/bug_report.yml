@@ -1,0 +1,73 @@
+name: 问题提交
+description: 遇到崩溃、异常或功能不符预期，请在此提交
+title: "[问题] "
+labels: ["问题提交"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈。请尽量填写完整信息，以便我们快速定位问题。
+        提交前建议先检索已有 Issue，避免重复提交。
+
+  - type: input
+    id: software-version
+    attributes:
+      label: 软件名及版本
+      description: 填写出现问题的软件与版本号，例如短剧盒 v0.8.6、短剧猫 v0.9.0
+      placeholder: 例如：短剧盒 v0.9.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: 操作系统
+      description: 选择出现问题的操作系统
+      options:
+        - Windows
+        - Linux
+        - macOS
+    validations:
+      required: true
+
+  - type: dropdown
+    id: architecture
+    attributes:
+      label: 架构
+      description: 选择 CPU 架构，可在系统信息中查看
+      options:
+        - x86
+        - arm
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 简明描述发生了什么，以及期望的正确表现
+      placeholder: 例如：播放时点击全屏后画面黑屏，但声音正常。
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 请按顺序列出能够稳定复现问题的操作步骤
+      placeholder: |
+        1. 打开 ……
+        2. 进入 ……
+        3. 点击 ……
+        4. 出现 ……
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: 补充信息（可选）
+      description: 可粘贴错误日志、补充截图，或说明复现频率与影响范围
+      placeholder: 例如：每次操作都复现；仅在 4K 片源出现
+    validations:
+      required: false

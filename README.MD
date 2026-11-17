@@ -26,7 +26,7 @@
 
 Windows · macOS · Linux 全平台，免安装，双击即用
 
-<p><sub><a href="https://github.com/kiroswu/hongguo-shortdramabox/releases/latest">GitHub Releases</a> · <a href="https://gitee.com/kiroswu/hongguo-shortdramabox/releases/">Gitee Releases</a> · <a href="https://share.feijipan.com/s/iYzFFXqV">网盘直下</a></sub></p>
+<p><a href="https://github.com/kiroswu/hongguo-shortdramabox/releases/latest">GitHub Releases</a> · <a href="https://gitee.com/kiroswu/hongguo-shortdramabox/releases/">Gitee Releases</a> · <a href="https://share.feijipan.com/s/iYzFFXqV">网盘直下</a></p>
 
 </div>
 
@@ -152,12 +152,21 @@ chmod +x ShortDramaBox_vx.x.x_amd64|aarch64.AppImage
 未登录时历史、收藏、点赞、追更、预约等数据全部保存在本地；登录账号后数据自动同步到官方云端。软件本身不收集、不上传任何个人数据。
 
 **Q4：播放卡顿如何处理？**
-软件默认启用硬件解码。如遇有声音没画面或兼容性问题，可在设置中切换解码方式，或适当降低播放画质。
+软件默认启用软件解码。如遇有声音没画面或兼容性问题，可在设置中切换解码方式，或适当降低播放画质。
 
 **Q5：短剧盒会开源完整源代码吗？**
-完整源代码的开源正在考虑中，确定后将第一时间在本仓库公布，敬请期待。
+完整源代码的开源正在考虑中，确定后将第一时间在本仓库公布，敬请期待。**20261117-已部分开源前端源代码和原生桥协议。**
 
-## 六、免责声明
+## 六、「千面计划」开源共创
+参考当前皮肤工程demo，自行fork或clone到私有库，按照[SKIN.md](SKIN.md)契约说明文档进行开发制作，开发语言/框架不限，制作完成用最新版本短剧盒进行测试验证，如需挂网分享请联系作者。
+
+**使用**：设置-界面皮肤-上传zip包，点击“重启生效”，必需：**短剧盒版本 >= 0.9.0**
+
+**回退**：托盘图标-右键-重置皮肤，自动重启回复默认皮肤
+
+**挂网**：[https://xorg.ac.cn/#/skins](https://xorg.ac.cn/#/skins) ，联系作者
+
+## 七、免责声明
 
 > 本项目为个人开源学习项目，**仅供学习与技术交流使用，严禁用于任何商业用途**。
 > 软件本身不存储、不上传、不分发任何视频内容；所有内容均来源于网络公开接口，版权归原作者及原平台所有。
